@@ -1,5 +1,5 @@
 # Jean Mariano
-# Ruby coding challenge
+# Ruby coding challenge 2016
 
 def is_prime(n)
     return false if n <= 1
@@ -56,7 +56,8 @@ end
 
 def main(n)
     primes = n_primes(n)
+    puts "The first #{n} prime numbers are #{primes}."
     print mult_table(primes)
 end
 
-# main(10)
+main(10)
