@@ -1,3 +1,6 @@
+# Jean Mariano
+# Ruby coding challenge 2016
+
 require "test/unit"
 require_relative "prime.rb"
 
