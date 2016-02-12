@@ -4,6 +4,8 @@
 
 Prints out the multiplication table of the first N primes. 
 
+Run _prime.rb_ to print out the multiplication table. Run _test.rb_ to see unit testing.
+
 The format of the table is as follows. If N=3, then the table should look like:
 
 X | 2 | 3 | 5
