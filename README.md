@@ -9,7 +9,7 @@ The format of the table is as follows. If N=3, then the table should look like:
 X | 2 | 3 | 5
 --- | --- | --- | ---
 __2__ | 4 | 6 | 10
-__3__ | 6 | 9 | 15n
+__3__ | 6 | 9 | 15
 __5__ | 10 | 15 | 25
 
 ### Functions
