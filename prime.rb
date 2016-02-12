@@ -43,15 +43,20 @@ def mult_table(num_array)
     return table
 end
 
-def main(n)
-    primes = [2]
+def n_primes(n)
+    primes = [2]    
     while n > 1
         j = primes[primes.length-1]
         k = next_prime(j)
         primes.push(k)
         n = n-1
-    end
+    end 
+    return primes
+end
+
+def main(n)
+    primes = n_primes(n)
     print mult_table(primes)
 end
 
-main(10)
+# main(10)
