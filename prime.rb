@@ -19,7 +19,8 @@ def next_prime(n)
     return n   
 end 
 
-def mult_table(n,num_array)
+def mult_table(num_array)
+    n = num_array.length-1
     table = ""
     for i in -1..n
         if i > -1
@@ -50,9 +51,7 @@ def main(n)
         primes.push(k)
         n = n-1
     end
-
-    n = primes.length-1
-    print mult_table(n,primes)
+    print mult_table(primes)
 end
 
 main(10)
