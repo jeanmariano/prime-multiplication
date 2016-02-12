@@ -15,6 +15,7 @@ __5__ | 10 | 15 | 25
 ### Functions
 
 - __is_prime(n)__ - checks if _n_ is a prime number
-- __next_prime(n)__ - finds the next prime number after _n_ using is_prime(n)
+- __next_prime(n)__ - returns the next prime number after _n_ using is_prime(n)
 - __mult_table(num_array)__ - returns a multiplication table of a list of numbers
+- __n_primes(n)__ - returns the first n primes
 - __main(n)__ - prints out multiplication table of first _n_ primes
